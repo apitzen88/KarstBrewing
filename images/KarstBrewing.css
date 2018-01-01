@@ -1,0 +1,203 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.site-header {
+background-image: url("wood-pattern.png");
+background-color: black;
+border: 4px solid;
+border-color: black;
+border-top: none;
+border-right: none;
+border-left: none;
+height: 170;
+}
+
+.LogoNav {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+.LogoNav h1 {
+color: white;
+padding-left: 10px;
+padding-top: 115px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.Logo {
+padding-left: 30px;
+padding-top: 15px;
+}
+
+#address {
+text-align: center;
+color: white;	
+}
+
+.sub-header {
+height: 400px;
+background-image: url(_DSC1463-Edit.jpg);
+/*background-image: url("_DSC1514-Edit.jpg");*/
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+border: 4px solid;
+border-color: black;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+
+.SideNav {
+background-image: url("fabric-1-dark.png");
+background-color: black;
+display: inline;
+float: left;
+width: 200px;
+margin-left: none;
+margin-right: 10px;
+padding-bottom: 500px;
+}
+
+.SideNav ul {
+background-image: url("wood-pattern.png");
+background-color: #000000;
+display: block;
+list-style: none;
+margin-top: 0px;
+padding-left: 0px;
+font-family: "Arial";
+font-size: 20px;
+}
+
+.SideNav ul li a {
+color: #ffffff;
+text-decoration: none;
+}
+
+.SideNav ul li {
+
+border: 2px solid;
+border-left: none;
+border-color: #000000;
+border-top-color: #000000; 
+padding-left: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.SideNav ul li + li {
+padding-left: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.SideNav ul li + li + li {
+padding-left: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.SideNav ul li + li + li + li {
+padding-left: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
+border-bottom: 4px solid;
+}
+
+.pagebody {
+background-color: #AAAAAA;
+background-image: url("fabric-1-dark.png");
+}
+
+.main-content {
+display: inline;
+}
+
+#main-para {
+display: inline;
+text-align: justify;
+}
+
+.RightColumn {
+background-image: url("fabric-1-dark.png");
+background-color: #000000;
+display: inline;
+float: right;
+width: 200px;
+margin-left: 10px;
+padding-bottom: 500px;
+}
+
+.RightColumn ul {
+background-image: url("wood-pattern.png");
+background-color: #000000;
+display: block;
+list-style: none;
+margin-top: 0px;
+padding-left: 0px;
+font-family: "Arial";
+font-size: 20px;
+}
+
+.RightColumn ul li a {
+color: #ffffff;
+text-decoration: none;
+}
+
+.RightColumn ul li {
+
+border: 2px solid;
+border-right: none;
+border-color: #000000;
+border-top-color: #000000; 
+padding-left: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.RightColumn ul li + li {
+padding-left: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.RightColumn ul li + li + li {
+padding-left: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.RightColumn ul li + li + li + li {
+padding-left: 10px;
+padding-top: 25px;
+padding-bottom: 25px;
+border-bottom: 4px solid;
+}
+
+.main-footer {
+background-color: #000000;
+}
+
+.main-footer p {
+margin: 0;
+}
