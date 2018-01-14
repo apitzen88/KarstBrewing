@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="KarstBrewing">
+
 <head>
   <title>Karst Brewing</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -8,91 +9,67 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body ng-controller="MainController">
   <div id="topHeader">
-    <div id="logoContainer" >
-        <a href="whatsNew.html"><img id="logo" src="images/KarstBrewing_Logo2.png"></a>
+    <div id="logoContainer">
+      <a href="whatsNew.html"><img id="logo" src="images/KarstBrewing_Logo2.png"></a>
     </div>
-      
+
   </div>
   <div id="karstPattern">
   </div>
-  <div id="navbar" >
-          <ul>
-            <li><a href="whatsNew.html">What's New</a></li>
-            <li><a href="onTap.html">On Tap</a></li>
-            <li class="active"><a href="photos.html">Photos</a></li>
-            <li><a href="findUs.html">Find Us</a></li>
-          </ul>
+  <div id="navbar">
+    <ul>
+      <li><a href="index.html">What's New</a></li>
+      <li><a href="onTap.html">On Tap</a></li>
+      <li class="active"><a href="photos.html">Photos</a></li>
+      <li><a href="findUs.html">Find Us</a></li>
+    </ul>
   </div>
-  <div id="carousel">
-    
-    <div id="photoContent" class="col-md-11">
 
-         <div class="row aboutPhotoContainer">
-          <div class="imageHover">
-            <img class="mainImage" src="images/oldBeer.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/buildingPatio.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/day.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/redRoof.jpg">
-          </div>
-        </div>
-          
-        <div class="row aboutPhotoContainer">
-          <div class="imageHover">
-            <img class="mainImage" src="images/growlers.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/IMG_0549.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/interior.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/16992256_1364686773552552_8275881307046073730_o.jpg">
-          </div>
-        </div>
-
-        <div class="row aboutPhotoContainer">
-          <div class="imageHover">
-            <img class="mainImage" src="images/oldFront.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/oldSide.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/oldSummer.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/oldWriting.jpg">
-          </div>
-        </div class="imageHover">
-
-        <div class="row aboutPhotoContainer">
-          <div class="imageHover">
-            <img class="mainImage" src="images/dayQuality.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/interiorQuality.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/exteriorQuality.jpg">
-          </div>
-          <div class="imageHover">
-            <img class="mainImage" src="images/oldInside.jpg">
-          </div>
-        </div>
+  <div id="pageContent">
+    <div class="col-md-1"></div>
+    <div id="leftContent" class="col-xs-7">
+      <div class='embedsocial-album' data-ref="534c9e02e4f4b011d79b0d8628ca35efc15514b4">
+      </div>
+      <script>
+        (function (d, s, id) {
+          var js;
+          if (d.getElementById(id)) { return; } js = d.createElement(s);
+          js.id = id;
+          js.src = "https://embedsocial.com/embedscript/ei.js";
+          d.getElementsByTagName("head")[0].appendChild(js);
+        }(document, "script", "EmbedSocialScript"));
+      </script>
     </div>
+    <div id="rightContent" class="col-xs-3">
+      <hr>
+      <h3><b>Contact Info<b></h3>
+      <h4>Phone: <br/> 
+        612-747-6367
+      </h4>
+      <h4>Address: <br/> 
+        315 1st St, Fountain, MN, 55935</h4>
+        <hr>
+      <div id="sidePhotoContainer">
+        
+        <img class="col-md-12 sideImage" src="images/dayQuality.jpg">
+      
+      
+        <img class="col-md-12 sideImage" src="images/interiorQuality.jpg">
+     
+        <img class="col-md-12 sideImage" src="images/exteriorQuality.jpg">
+      
+    </div>
+    <div class="col-md-1"></div>
   </div>
-  
-  
 
-<script src="home.js"></script>
+
+
+
+
+  <script src="home.js"></script>
 </body>
+
 </html>
